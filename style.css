@@ -121,18 +121,30 @@ svg {
     fill: var(--dark);
     stroke: var(--dark);
 }
-.contact a {
+.main-left a {
     color: var(--gray-secondary);
 }
-.contact p {
+.main-left a span {
+    text-decoration: underline;
+    background-color: transparent;
+    margin-left: 0.3rem;
+}
+.contact li {
     display: flex;
     align-items: center;
     column-gap: 5px;
 }
-.contact p svg {
+.contact li svg {
     fill: var(--light);
     width: 14px;
     height: 14px;
+}
+.contact .linkedin svg {
+    width: 12px;
+    height: 12px;
+}
+.ref a {
+    text-decoration: underline;
 }
 .main-right {
     padding: 20px;
@@ -147,8 +159,25 @@ svg {
 .main-right ul {
     margin-left: 2em;
 }
+.projets-dev > div {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    letter-spacing: 1.2px;
+    margin-left: 0.8rem;
+}
+.projets-dev > div span {
+    font-weight: 600;
+    background-color: transparent;
+}
+.projets-dev a {
+    text-decoration: underline;
+}
 .langues ul {
     columns: 2;
+}
+.objectif-prof p {
+    margin-left: 0.8rem;
 }
 
 /* RESPONSIVE */
