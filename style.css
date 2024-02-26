@@ -173,6 +173,9 @@ svg {
 .projets-dev a {
     text-decoration: underline;
 }
+.exp-tech ul span {
+    background-color: transparent;
+}
 .langues ul {
     columns: 2;
 }
